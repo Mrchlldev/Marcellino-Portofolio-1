@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "aos/dist/aos.css";
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: #F5ECE7;
+  color: #171717;
+  overflow-x: hidden;
+}
+::selection { background: #F7D859; color: #171717; }
+.neo-grid {
+  background-image: linear-gradient(rgba(23,23,23,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(23,23,23,.07) 1px, transparent 1px);
+  background-size: 34px 34px;
+}
+.neo-box {
+  border: 3px solid #171717;
+  box-shadow: 8px 8px 0 #171717;
+  background: #FFF8F0;
+}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
