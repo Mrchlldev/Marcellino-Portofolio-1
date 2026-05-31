@@ -1,7 +1,7 @@
+@import "aos/dist/aos.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "aos/dist/aos.css";
 
 :root { color-scheme: light; }
 * { box-sizing: border-box; }
